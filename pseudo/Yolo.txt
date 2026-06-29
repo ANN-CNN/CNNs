@@ -34,17 +34,19 @@ INÍCIO
     Desabilitar ferramentas externas de monitoramento.
     Criar uma pasta com data e hora para salvar os resultados do treinamento.
 
-6. Definir Hiperparâmetros
-    Escolher:
-        Modelo base YOLOv8
-        Número de épocas
-        Tamanho das imagens
-        Batch size
-        Taxa de aprendizado
-        Outros parâmetros de treinamento.
+6. Configurar parâmetros de treinamento
+
+    Definir:
+        Modelo YOLO a ser treinado.
+        Número de épocas.
+        Batch size.
+        Configuração de cache.
+        Quantidade de processos (workers) para carregamento do conjunto de dados.
+
+    Manter os demais parâmetros com os valores padrão da biblioteca Ultralytics.
 
 7. Treinar Modelo
-    Carregar o modelo YOLOv8.
+    Carregar o modelo YOLO.
     Ler imagens de treinamento.
     Executar treinamento durante todas as épocas.
 
