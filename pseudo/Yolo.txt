@@ -64,8 +64,9 @@ INÍCIO
     Calcular métricas como:
         Precisão
         Recall
-        mAP
+        MAP (Mean Average Precision)
         Matriz de confusão
+        Tempo de inferência
 
 9. Exibir Resultados
     Localizar imagens geradas pelo treinamento.
