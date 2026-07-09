@@ -64,7 +64,9 @@ INÍCIO
     Calcular métricas como:
         Precisão
         Recall
-        MAP (Mean Average Precision)
+        F1-Score
+        mAP@0.5
+        mAP@0.5:0.95
         Matriz de confusão
         Tempo de inferência
 
